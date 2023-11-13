@@ -20,7 +20,7 @@ const Contact = () => {
     setTimeout(() => {
       setCurrentAnimation("ZhanLi");
       setForm({ name: "", email: "", message: "" });
-    }, 10000);
+    }, 8000);
   };
   const handleFocus = () => {
     setCurrentAnimation("XingZou");

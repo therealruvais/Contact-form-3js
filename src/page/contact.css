@@ -9,7 +9,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  background-color:#202233;
+  background-color:#202033;
 }
 
 .section,
@@ -83,7 +83,7 @@
 .input-group input:focus ~ label,
 .input-group input:valid ~ label
 {
-    color: skyblue;
+    color: #505081;
     top: -10px;
     font-size: 12px;
 }
@@ -91,17 +91,17 @@
 .input-group input:focus ,
 .input-group input:valid
  {
-   border-color: skyblue;
+   border-color: #505081;
    
 }
 .textarea textarea:focus ~ label,
 .textarea textarea:valid ~ label{
-  color: skyblue;
+  color: #505081;
     top: -10px;
     font-size: 12px;
 }
 .textarea textarea:focus{
-   border-color: skyblue;
+   border-color: #505081;
 }
 .btn{
     display: flex;
