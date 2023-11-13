@@ -23,13 +23,10 @@ const Contact = () => {
     }, 10000);
   };
   const handleFocus = () => {
-   
-    setCurrentAnimation("XingZou")
-
+    setCurrentAnimation("XingZou");
   };
   const handleBlur = () => {
-    
-    setCurrentAnimation("ZhanLi")
+    setCurrentAnimation("ZhanLi");
   };
 
   return (
@@ -97,23 +94,12 @@ const Contact = () => {
           </form>
         </div>
         <div className="right">
-          <Canvas
-          >
+          <Canvas>
             <directionalLight
               intensity={3}
               position={[0, 0, 1]}
             />
-            <ambientLight intensity={1.5} />
-            <spotLight
-              position={[0, 10, 10]}
-              angle={0.15}
-              penumbra={1}
-              intensity={2}
-            />
-            <pointLight
-              position={[0, 5, 10]}
-              intensity={3}
-            />
+
             <Suspense fallback={null}>
               <Dragon
                 position={[0, -2, 0]}
